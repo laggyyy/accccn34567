@@ -32,10 +32,8 @@ for i in range(3):
   print(email)
   client.request_verify_code(email = email,dev=dev)
   link=client.get_message(email)
-  try:
-	code=codee(link)
-  except:
-	pass
+  try: code=codee(link)
+  except: pass
   
   
   try:
