@@ -16,7 +16,7 @@ def restart():
     botapp.restart()
 def send(data):
     requests.post(f"{url}/save",data=data)
-client=amino.Client(deviceid)
+client=amino.Client("17925AEBB52F0AB6309A4D963914DD5ABBA536CE2ACC53643300942EF82983B504AF220835D92B95DB")
 
 def codee(link):
 	d={"data":link}
