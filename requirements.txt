@@ -8,6 +8,7 @@ MarkupSafe==1.1.1
 Werkzeug==0.15.6
 wget
 fancy_text
+Dick.py
 names
 bs4
 pymongo
