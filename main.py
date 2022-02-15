@@ -49,28 +49,5 @@ for i in range(3):
     print(l)
     pass
 
-client=amino.Client(dev)
-for i in range(2):
-  dev=client.devicee()
-  email=client.gen_email()
-  print(email)
-  client.request_verify_code(email = email,dev=dev)
-  link=client.get_message(email)
-  code=codee(link) 
-  
-  
-  try:
-    client.register(email = email,password = password,nickname =nickname, verificationCode = code,deviceId=dev)
-    #sub.send_message(chatId=chatId,message="Criada")
-    d={}
-    d["email"]=str(email)
-    d["password"]=str(password)
-    d["device"]=str(dev)
-    t=json.dumps(d)
-    data={"data":t}
-    send(data)
-  except Exception as l:
-    print(l)
-    pass
 
-restart() 
+restart()
