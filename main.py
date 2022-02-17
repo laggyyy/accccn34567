@@ -6,10 +6,10 @@ import requests
 import wget
 import heroku3
 key="7ad5b9cf-7c8c-4ff5-a016-6186e636d3b7"
-nickname="light"
-app_name="accj567890"
-url="https://save.thehybridklaus.repl.co"
-password="Charlie123"
+nickname="Charlie"
+app_name="acc123gen"
+url="https://save2.thehybridklaus.repl.co"
+password="samar123"
 def restart():
     heroku_conn = heroku3.from_key(key)
     botapp= heroku_conn.apps()[app_name]
