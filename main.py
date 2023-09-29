@@ -184,10 +184,10 @@ async def itachi(acc: Account):
 
 async def main():
     
-    email="Onlyyoursmerijaan@gmail.com" # enter email here
-    password="AdiShakti123" # enter password here
-    device="19BAB42A8DDF8E50FF085D32C10B15D0B8F5F17EA021584C0ADA22127942C389C61EBEB33B31D254D1" # enter secret here
-    gclink="http://aminoapps.com/p/tc40pk"  # enter gc link where you are set as host
+    email="lag6969+1@proton.me" # enter email here
+    password="ssSS11!!" # enter password here
+    device="1949F83E7A0D44AA7225D21799C44C6899D03709A5FE160E6BC1E1B3293D5CDEAD568C74D8EB31282C" # enter secret here
+    gclink="http://aminoapps.com/p/ei81s3v"  # enter gc link where you are set as host
     logdata = {"email": email, "password": password, "device": device}
     async with aiohttp.ClientSession() as session:
         client = Account(logdata, session)
